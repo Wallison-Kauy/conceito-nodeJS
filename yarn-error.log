@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\walli\AppData\Local\Microsoft\WindowsApps;C:\Users\walli\AppData\Roaming\npm;C:\Users\walli\AppData\Local\Yarn\bin;C:\Users\walli\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.19.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\walli\AppData\Local\Yarn\Cache\v6\npm-cliui-6.0.0-511d702c0c4e41ca156d7d0e96021f23e13225b1-integrity\node_modules\cliui\LICENSE.txt' -> 'C:\Users\walli\OneDrive\Documentos\conceito-nodeJS\node_modules\cliui\LICENSE.txt'
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "src/server.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "nodemon",
+      "test": "test"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "uuid": "^8.3.0"
+    },
+    "devDependencies": {
+      "jest": "^25.2.6",
+      "nodemon": "^2.0.2",
+      "supertest": "^4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
